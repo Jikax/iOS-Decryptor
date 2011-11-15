@@ -1,0 +1,31 @@
+Ever wanted to browse trough the file system of an Apple device you didn't own? Now this is made very easy..
+
+iOS Decryptor decrypts the file system for you so you can browse trough the files using hfsexplorer (http://www.catacombae.org/hfsx.html).
+
+Just select an ipsw file and iOS Decryptor detects the decryption key for you. And using the build in vfdecrypt it decrypts the file system for you. No need to extract the file system manually!
+
+Supported devices:
+- Apple tv 2G
+- iPhone 2G
+- iPhone 3G
+- iPhone 3GS
+- iPhone 4 GSM
+- iPhone 4 CDMA
+- iPhone 4S (no keys available yet)
+- iPad 1
+- iPad 2 Wifi
+- iPad 2 GSM
+- iPad 2 CDMA
+- iPod touch 1G
+- iPod touch 2G
+- iPod touch 3G
+- iPod touch 4G
+
+Limitations in this beta:
+- no automatic key detection for iPod touch.
+
+Download iOS Decryptor beta 1: http://www.mediafire.com/?a1ni85r7ilrm57a
+
+Please report any issues to jikax001@gmail.com or @mention me on twitter: @Jikax
+
+Source is available at https://github.com/Jikax .

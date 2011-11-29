@@ -978,6 +978,18 @@
 		<version>5.0</version>
 		<key>72bf0eca5776925b62006f3f83ef02a1d536572fc95b54f426ef0132ef65d97cd13c880e</key>
 	</keyinfo>
+	<keyinfo>
+		<device>iPhone2,1</device>
+		<build>9A334</build>
+		<version>5.0</version>
+		<key>0827b7d632abf92f397471cd7f77c037817e56d0ab1bade692b29f311f0fbcdfd6fc3bef</key>
+	</keyinfo>
+	<keyinfo>
+		<device>iPhone2,1</device>
+		<build>9A405</build>
+		<version>5.0.1</version>
+		<key>afde073c5b7a637f0a40b37c7b59f22836074d1f1ec8e85f05573da87da77629624179b4</key>
+	</keyinfo>
 	
 	
 	<keyinfo>
@@ -1243,6 +1255,13 @@
 	</keyinfo>
 	
 	
+	
+	<keyinfo>
+		<device>iPod4,1</device>
+		<build>9A334</build>
+		<version>5.0</version>
+		<key>575bcb4f9290a28bc00451f7e444973fd8b0afc529d2d84db4ae227bdd779563f070eaea</key>
+	</keyinfo>
 	
 	
 </decryptor>

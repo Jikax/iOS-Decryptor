@@ -171,10 +171,24 @@ void MainWindow::Decrypt(){
 	file.get_file(file.get_SystemRestoreImage());
 
 	/* decrypt SystemRestoreImage */
+	std::stringstream outfile;
+	outfile << filechooserbutton.get_current_folder()
+			<< "\\" << file.get_ProductType()
+			<< "_" << file.get_ProductVersion()
+			<< "_" << file.get_ProductBuildVersion()
+			<< "_Decrypted_"
+			<< file.get_SystemRestoreImage().c_str();
+
+	Glib::ustring keystring = GetKey(file).c_str();
+
+	if(!keystring.size() && m_key.get_text().size())
+		keystring = m_key.get_text();
+
+
 	decrypt(
 		(char *)file.get_SystemRestoreImage().c_str(),		/* root file system image name */
-		(char *)output.str().c_str(),						/* output location and name */
-		(char *)GetKey(file).c_str(),						/* try to obtain the decryption key */
+		(char *)outfile.str().c_str(),						/* output location and name */
+		(char *)keystring.c_str(),						/* try to obtain the decryption key */
 		NULL												/* passphrase not used*/
 	);
 

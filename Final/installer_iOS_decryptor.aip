@@ -59,6 +59,7 @@
     <ROW Component="libatkmm_1.6_1.dll" ComponentId="{79B50589-D027-41D4-9EDB-C219DB230BB6}" Directory_="APPDIR" Attributes="0" KeyPath="libatkmm_1.6_1.dll"/>
     <ROW Component="libcairo_2.dll" ComponentId="{E3993BB0-8212-4AE4-9819-03FB3FC2CDD8}" Directory_="APPDIR" Attributes="0" KeyPath="libcairo_2.dll"/>
     <ROW Component="libcairomm_1.0_1.dll" ComponentId="{10FE9D87-0F7F-4106-8739-4C3147E79CA4}" Directory_="APPDIR" Attributes="0" KeyPath="libcairomm_1.0_1.dll"/>
+    <ROW Component="libcurl.dll" ComponentId="{EBD72278-A7FA-487D-A360-76C8F67472BB}" Directory_="APPDIR" Attributes="0" KeyPath="libcurl.dll"/>
     <ROW Component="libeay32.dll" ComponentId="{339FE635-7EB9-4EC3-BAFF-D835B89674E6}" Directory_="APPDIR" Attributes="0" KeyPath="libeay32.dll"/>
     <ROW Component="libexpat_1.dll" ComponentId="{FDD5E1AB-B38D-438F-B271-86B8A1FA64C6}" Directory_="APPDIR" Attributes="0" KeyPath="libexpat_1.dll"/>
     <ROW Component="libfontconfig_1.dll" ComponentId="{84947B19-612A-4DC5-BA2B-5CDC95A7E902}" Directory_="APPDIR" Attributes="0" KeyPath="libfontconfig_1.dll"/>
@@ -91,7 +92,7 @@
     <ROW Component="zlibwapi.dll" ComponentId="{6FA685F1-DD19-44D9-95A4-84A3907537CD}" Directory_="APPDIR" Attributes="0" KeyPath="zlibwapi.dll"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFeatsComponent">
-    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="ProductInformation SHORTCUTDIR cygcrypto_0.9.8.dll cygwin1.dll freetype6.dll gtk.immodules gtkrc gtkrc_1 gtkrc_2 gtkrc_3 iOS_Decryptor.exe icon.ico intl.dll libatk_1.0_0.dll libatkmm_1.6_1.dll libcairo_2.dll libcairomm_1.0_1.dll libeay32.dll libexpat_1.dll libfontconfig_1.dll libgcc_s_dw2_1.dll libgcc_s_sjlj_1.dll libgdk_pixbuf_2.0_0.dll libgdk_win32_2.0_0.dll libgdkmm_2.4_1.dll libgio_2.0_0.dll libgiomm_2.4_1.dll libglib_2.0_0.dll libglibmm_2.4_1.dll libgmodule_2.0_0.dll libgobject_2.0_0.dll libgthread_2.0_0.dll libgtk_win32_2.0_0.dll libgtkmm_2.4_1.dll libpango_1.0_0.dll libpangocairo_1.0_0.dll libpangoft2_1.0_0.dll libpangomm_1.4_1.dll libpangowin32_1.0_0.dll libpixmap.dll libpng14_14.dll libsigc_2.0_0.dll libstdc___6.dll libwimp.dll ssleay32.dll zlib1.dll zlibwapi.dll"/>
+    <ROW Feature="MainFeature" Title="MainFeature" Description="Description" Display="1" Level="1" Directory_="APPDIR" Attributes="0" Components="ProductInformation SHORTCUTDIR cygcrypto_0.9.8.dll cygwin1.dll freetype6.dll gtk.immodules gtkrc gtkrc_1 gtkrc_2 gtkrc_3 iOS_Decryptor.exe icon.ico intl.dll libatk_1.0_0.dll libatkmm_1.6_1.dll libcairo_2.dll libcairomm_1.0_1.dll libcurl.dll libeay32.dll libexpat_1.dll libfontconfig_1.dll libgcc_s_dw2_1.dll libgcc_s_sjlj_1.dll libgdk_pixbuf_2.0_0.dll libgdk_win32_2.0_0.dll libgdkmm_2.4_1.dll libgio_2.0_0.dll libgiomm_2.4_1.dll libglib_2.0_0.dll libglibmm_2.4_1.dll libgmodule_2.0_0.dll libgobject_2.0_0.dll libgthread_2.0_0.dll libgtk_win32_2.0_0.dll libgtkmm_2.4_1.dll libpango_1.0_0.dll libpangocairo_1.0_0.dll libpangoft2_1.0_0.dll libpangomm_1.4_1.dll libpangowin32_1.0_0.dll libpixmap.dll libpng14_14.dll libsigc_2.0_0.dll libstdc___6.dll libwimp.dll ssleay32.dll zlib1.dll zlibwapi.dll"/>
     <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
@@ -115,6 +116,7 @@
     <ROW File="libatkmm_1.6_1.dll" Component_="libatkmm_1.6_1.dll" FileName="libatk~2.dll|libatkmm-1.6-1.dll" Attributes="0" SourcePath="..\Debug\libatkmm-1.6-1.dll" SelfReg="false" NextFile="libcairo_2.dll"/>
     <ROW File="libcairo_2.dll" Component_="libcairo_2.dll" FileName="libcai~1.dll|libcairo-2.dll" Attributes="0" SourcePath="..\Debug\libcairo-2.dll" SelfReg="false" NextFile="libcairomm_1.0_1.dll"/>
     <ROW File="libcairomm_1.0_1.dll" Component_="libcairomm_1.0_1.dll" FileName="libcai~2.dll|libcairomm-1.0-1.dll" Attributes="0" SourcePath="..\Debug\libcairomm-1.0-1.dll" SelfReg="false" NextFile="libeay32.dll"/>
+    <ROW File="libcurl.dll" Component_="libcurl.dll" FileName="libcurl.dll" Attributes="0" SourcePath="..\Debug\libcurl.dll" SelfReg="false"/>
     <ROW File="libeay32.dll" Component_="libeay32.dll" FileName="libeay32.dll" Attributes="0" SourcePath="..\Debug\libeay32.dll" SelfReg="false" NextFile="libexpat_1.dll"/>
     <ROW File="libexpat_1.dll" Component_="libexpat_1.dll" FileName="libexp~1.dll|libexpat-1.dll" Attributes="0" SourcePath="..\Debug\libexpat-1.dll" SelfReg="false" NextFile="libfontconfig_1.dll"/>
     <ROW File="libfontconfig_1.dll" Component_="libfontconfig_1.dll" FileName="libfon~1.dll|libfontconfig-1.dll" Attributes="0" SourcePath="..\Debug\libfontconfig-1.dll" SelfReg="false" NextFile="libgcc_s_dw2_1.dll"/>
@@ -144,7 +146,7 @@
     <ROW File="libwimp.dll" Component_="libwimp.dll" FileName="libwimp.dll" Attributes="0" SourcePath="..\Debug\lib\gtk-2.0\2.10.0\engines\libwimp.dll" SelfReg="false" NextFile="libatk_1.0_0.dll"/>
     <ROW File="ssleay32.dll" Component_="ssleay32.dll" FileName="ssleay32.dll" Attributes="0" SourcePath="..\Debug\ssleay32.dll" SelfReg="false" NextFile="zlib1.dll"/>
     <ROW File="zlib1.dll" Component_="zlib1.dll" FileName="zlib1.dll" Attributes="0" SourcePath="..\Debug\zlib1.dll" SelfReg="false" NextFile="zlibwapi.dll"/>
-    <ROW File="zlibwapi.dll" Component_="zlibwapi.dll" FileName="zlibwapi.dll" Attributes="0" SourcePath="..\Debug\zlibwapi.dll" SelfReg="false"/>
+    <ROW File="zlibwapi.dll" Component_="zlibwapi.dll" FileName="zlibwapi.dll" Attributes="0" SourcePath="..\Debug\zlibwapi.dll" SelfReg="false" NextFile="libcurl.dll"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BuildComponent">
     <ROW BuildKey="DefaultBuild" BuildName="DefaultBuild" BuildOrder="1" BuildType="0" PackageFolder="Final" PackageFileName="iOS Decryptor" Languages="en" InstallationType="4"/>

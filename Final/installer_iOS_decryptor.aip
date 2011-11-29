@@ -105,18 +105,18 @@
     <ROW File="gtkrc_2" Component_="gtkrc_1" FileName="gtkrc" Attributes="0" SourcePath="..\Debug\share\themes\Emacs\gtk-2.0-key\gtkrc" SelfReg="false" NextFile="gtkrc_3"/>
     <ROW File="gtkrc_3" Component_="gtkrc_2" FileName="gtkrc" Attributes="0" SourcePath="..\Debug\share\themes\MS-Windows\gtk-2.0\gtkrc" SelfReg="false" NextFile="gtkrc_4"/>
     <ROW File="gtkrc_4" Component_="gtkrc_3" FileName="gtkrc" Attributes="0" SourcePath="..\Debug\share\themes\Raleigh\gtk-2.0\gtkrc" SelfReg="false" NextFile="ssleay32.dll"/>
-    <ROW File="iOS_Decryptor.exe" Component_="iOS_Decryptor.exe" FileName="iOS_De~1.exe|iOS_Decryptor.exe" Attributes="0" SourcePath="..\Debug\iOS_Decryptor.exe" SelfReg="false" NextFile="keys.xml"/>
+    <ROW File="iOS_Decryptor.exe" Component_="iOS_Decryptor.exe" FileName="iOS_De~1.exe|iOS_Decryptor.exe" Attributes="0" SourcePath="..\Debug\iOS_Decryptor.exe" SelfReg="false" NextFile="libpixmap.dll"/>
     <ROW File="icon.ico" Component_="icon.ico" FileName="icon.ico" Attributes="0" SourcePath="..\Debug\icon.ico" SelfReg="false" NextFile="icon.png"/>
     <ROW File="icon.png" Component_="icon.ico" FileName="icon.png" Attributes="0" SourcePath="..\Debug\icon.png" SelfReg="false" NextFile="icon_40.png"/>
     <ROW File="icon_40.png" Component_="icon.ico" FileName="icon_40.png" Attributes="0" SourcePath="..\Debug\icon_40.png" SelfReg="false" NextFile="intl.dll"/>
     <ROW File="im_multipress.conf" Component_="gtk.immodules" FileName="im-mul~1.con|im-multipress.conf" Attributes="0" SourcePath="..\Debug\etc\gtk-2.0\im-multipress.conf" SelfReg="false" NextFile="freetype6.dll"/>
     <ROW File="intl.dll" Component_="intl.dll" FileName="intl.dll" Attributes="0" SourcePath="..\Debug\intl.dll" SelfReg="false" NextFile="iOS_Decryptor.exe"/>
-    <ROW File="keys.xml" Component_="icon.ico" FileName="keys.xml" Attributes="0" SourcePath="..\Debug\keys.xml" SelfReg="false" NextFile="libpixmap.dll"/>
+    <ROW File="keys.xml" Component_="icon.ico" FileName="keys.xml" Attributes="0" SourcePath="..\Debug\keys.xml" SelfReg="false"/>
     <ROW File="libatk_1.0_0.dll" Component_="libatk_1.0_0.dll" FileName="libatk~1.dll|libatk-1.0-0.dll" Attributes="0" SourcePath="..\Debug\libatk-1.0-0.dll" SelfReg="false" NextFile="libatkmm_1.6_1.dll"/>
     <ROW File="libatkmm_1.6_1.dll" Component_="libatkmm_1.6_1.dll" FileName="libatk~2.dll|libatkmm-1.6-1.dll" Attributes="0" SourcePath="..\Debug\libatkmm-1.6-1.dll" SelfReg="false" NextFile="libcairo_2.dll"/>
     <ROW File="libcairo_2.dll" Component_="libcairo_2.dll" FileName="libcai~1.dll|libcairo-2.dll" Attributes="0" SourcePath="..\Debug\libcairo-2.dll" SelfReg="false" NextFile="libcairomm_1.0_1.dll"/>
     <ROW File="libcairomm_1.0_1.dll" Component_="libcairomm_1.0_1.dll" FileName="libcai~2.dll|libcairomm-1.0-1.dll" Attributes="0" SourcePath="..\Debug\libcairomm-1.0-1.dll" SelfReg="false" NextFile="libeay32.dll"/>
-    <ROW File="libcurl.dll" Component_="libcurl.dll" FileName="libcurl.dll" Attributes="0" SourcePath="..\Debug\libcurl.dll" SelfReg="false"/>
+    <ROW File="libcurl.dll" Component_="libcurl.dll" FileName="libcurl.dll" Attributes="0" SourcePath="..\Debug\libcurl.dll" SelfReg="false" NextFile="keys.xml"/>
     <ROW File="libeay32.dll" Component_="libeay32.dll" FileName="libeay32.dll" Attributes="0" SourcePath="..\Debug\libeay32.dll" SelfReg="false" NextFile="libexpat_1.dll"/>
     <ROW File="libexpat_1.dll" Component_="libexpat_1.dll" FileName="libexp~1.dll|libexpat-1.dll" Attributes="0" SourcePath="..\Debug\libexpat-1.dll" SelfReg="false" NextFile="libfontconfig_1.dll"/>
     <ROW File="libfontconfig_1.dll" Component_="libfontconfig_1.dll" FileName="libfon~1.dll|libfontconfig-1.dll" Attributes="0" SourcePath="..\Debug\libfontconfig-1.dll" SelfReg="false" NextFile="libgcc_s_dw2_1.dll"/>

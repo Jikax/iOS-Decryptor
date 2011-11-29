@@ -30,6 +30,7 @@
 #include <zlib.h>
 #include <rapidxml.hpp>
 #include "ipsw.h"
+#include "update.h"
 
 /**********************************************************/
 /*						DEFINES							  */

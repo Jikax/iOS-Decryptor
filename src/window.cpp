@@ -105,6 +105,11 @@ Button_Decrypt("Decrypt")
 	set_position(Gtk::WIN_POS_CENTER);
 	//fullscreen();
 
+
+	//look for updated keys
+	check_for_update();
+
+
 	/* show all widgets: */
 	show_all_children();
 

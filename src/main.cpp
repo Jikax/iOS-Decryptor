@@ -24,6 +24,9 @@
 #include <gtkmm.h>
 #include "window.h"
 
+#include <windows.h>
+#include "resources.h"
+
 /**********************************************************/
 /*						MAIN ROUTINE					  */
 /**********************************************************/

@@ -66,7 +66,6 @@ Button_Decrypt("Decrypt")
 	i_icon.set_size_request(40,40);
 
 	//progressbar
-	m_ProgressBar.set_text("0%");
 	b_progressbar.pack_start(m_ProgressBar);//,Gtk::PACK_SHRINK);
 
 	//connect signal handlers
@@ -105,14 +104,16 @@ Button_Decrypt("Decrypt")
 	set_position(Gtk::WIN_POS_CENTER);
 	//fullscreen();
 
-
-	//look for updated keys
-	check_for_update();
-
-
 	/* show all widgets: */
 	show_all_children();
 
+	//look for updated keys
+	if(check_for_update()){
+		m_ProgressBar.set_text("Downloaded new decryption key list");
+	}
+	else{
+		m_ProgressBar.set_text("Could not find new decryption keys, using old list");
+	}
 }
 
 /**********************************************************/

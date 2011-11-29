@@ -41,10 +41,11 @@ int check_for_update()
 {
 	CURL *curl;
 	FILE *fp;
-	//CURLcode res;
 	std::string url = SERVER;
-	char outfilename[FILENAME_MAX] = "keys_downloaded.xml";
+	char outfilename[FILENAME_MAX] = "keys.xml";
 	curl = curl_easy_init();
+	printf("copying keys.xml to backup file.\n\r");
+	system("copy keys.xml keys.xml_backup");
 	if(curl)
 	{
 		fp = fopen(outfilename,"wb");
@@ -56,7 +57,19 @@ int check_for_update()
 		curl_easy_cleanup(curl);
 		fclose(fp);
 	}
-	getchar();
-	return 0;
+
+	FILE *pFile = NULL;
+	pFile = fopen(outfilename, "rb" );
+	fseek( pFile, 0, SEEK_END );
+	int Size = ftell( pFile );
+	fclose( pFile );
+	printf("new file size: %d\r\n", Size);
+	if(Size <= 1000){
+		printf("no new data found, restore backup\n\r");
+		system("copy keys.xml_backup keys.xml");
+		return 0;
+	}
+	printf("Keys.xml has been downloaded\n\r");
+	return 1;
 }
 
